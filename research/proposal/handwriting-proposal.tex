@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{apacite}
+
+\title{Handwritten Form Processing through Microsoft Azure}
+\author{Wesley van Schaijk \\ HZ University of Applied Sciences \\ Middelburg, Netherlands}
+\date{May 24, 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+    \input{./sections/introduction}
+    \input{./sections/context}
+    \input{./sections/research-design}
+\end{multicols}
+
+{
+    \newpage
+    \raggedright
+    \bibliographystyle{apacite}
+    \bibliography{handwriting-proposal}
+}
+
+\end{document}
