@@ -5,3 +5,6 @@
 *.fdb_latexmk
 *.pdf
 *.gz
+*.fls
+*.log
+*.out
