@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{apacite}
+\usepackage{parskip}
+\usepackage{enumitem}
+
+\title{Handwritten Form Processing through Microsoft Azure}
+\author{Wesley van Schaijk \\ HZ University of Applied Sciences \\ Middelburg, Netherlands}
+\date{June 21, 2024}
+
+\begin{document}
+
+\maketitle
+
+\input{./sections/introduction}
+\input{./sections/summary}
+
+\newpage
+
+\begin{multicols}{2}
+    \input{./sections/introduction}
+    \input{./sections/context}
+    \input{./sections/design}
+    \input{./sections/research}
+    \input{./sections/results}
+    \input{./sections/conclusion}
+    \input{./sections/discussion}
+\end{multicols}
+
+{
+    \newpage
+    \raggedright
+    \bibliographystyle{apacite}
+    \bibliography{handwriting-form-processing}
+}
+
+\end{document}
